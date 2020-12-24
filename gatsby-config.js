@@ -18,10 +18,12 @@ module.exports = {
             options: {
                 root: "./src",
                 aliases: {
-                    "@Css": "./assets/css",
-                    "@DefaultComps": "./components/default-comps",
-                    "@Images": "./assets/images",
-                    "@Pages": "./pages",
+                    _Atoms: "./components/atoms",
+                    _Css: "./assets/css",
+                    _DefaultComps: "./components/default-comps",
+                    _Images: "./assets/images",
+                    _Molecules: "./components/molecules",
+                    _Pages: "./pages",
                 },
             },
         },

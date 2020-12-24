@@ -5,6 +5,7 @@ public
 
 .gitignore
 .prettierignore
+.prettierrc
 LICENSE
 
 src/assets/images

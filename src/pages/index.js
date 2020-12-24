@@ -1,13 +1,15 @@
 import React from "react";
-import { Link } from "gatsby";
+
+import Header from "_Molecules/Header";
+import Hi from "_Atoms/Hi";
+import Footer from "_Atoms/Footer";
 
 const IndexPage = () => {
     return (
         <div className="fullscreen">
-            <p className="heading">Hi people</p>
-            <Link to="/page2">
-                <span className="underline text-red-400">Go to Page2</span>
-            </Link>
+            <Header />
+            <Hi />
+            <Footer />
         </div>
     );
 };

@@ -10,7 +10,7 @@ import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
 
 import Header from "./header";
-// import "@Css/layout.css";
+// import "_Css/layout.css";
 /* I commented out layout.js as it messing up my full-screen width and height css */
 
 const Layout = ({ children }) => {
@@ -29,7 +29,6 @@ const Layout = ({ children }) => {
             <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
             <div>
                 <main>
-                    <p className="text-red-400">Test stmt</p>
                     {children}
                 </main>
             </div>
