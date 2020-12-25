@@ -11,10 +11,10 @@
         @apply p-5 bg-bodycol text-cocowhite;
     }
     .navbar {
-        @apply p-5 bg-headercol text-cocowhite;
+        @apply p-2 md:p-5 bg-headercol text-cocowhite fixed w-screen;
     }
     .navlink {
-        @apply inline mx-5 text-lg font-bold;
+        @apply mx-2 text-xs md:text-lg md:mx-5 inline font-bold;
     }
     .heading {
         @apply text-3xl text-navyb mx-auto mb-5 font-bold;

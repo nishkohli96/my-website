@@ -2,22 +2,57 @@ import React from "react";
 
 const Hi = () => {
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 pt-5">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 pt-5 pb-10 md:pt-20">
             <div className="col-span-1 mx-auto">
-                <p className="text-5xl my-5"> Hi There 👋 </p>
-                <p className="text-3xl mt-10"> Nice to meet you. </p>
+                <p className="text-2xl font-bold md:text-5xl my-5">
+                    Hi There&nbsp;
+                    <span role="img" aria-label="hi">
+                        👋
+                    </span>
+                </p>
+                <p className="text-xl font-semibold my-5 md:text-3xl md:mt-10">
+                    Nice to meet you.
+                </p>
             </div>
-            <div className="mx-auto col-span-1 pt-5 max-w-xs sm:max-w-sm md:max-w-md">
-                <p className="text-lg"> Myself Nishant. I am a Self-taught FullStack Developer with two years of experience
-                    currently working with Story Digital. I am also practicing Freelancing.
-                    My core skillset includes ReactJS and React-Native along with relevant
-                    experience in NodeJS, Express, Fastify, MongoDB etc.
+            <div className="mx-auto col-span-1 md:pt-5 max-w-xs sm:max-w-sm md:max-w-md">
+                <p className="text-lg">
+                    Myself Nishant. I am a Self-taught&nbsp;
+                    <span role="img" aria-label="graduate">
+                        👨‍🎓
+                    </span>
+                    &nbsp;FullStack Developer with two years of experience
+                    currently working with &nbsp;
+                    <span className="underline text-blue-200">
+                        <a href="https://www.storydigital.in/" target="_blank">
+                            Story Digital
+                        </a>
+                    </span>
+                    . I also Freelance. My core skillset includes ReactJS and
+                    React-Native along with relevant experience in NodeJS,
+                    Express, Fastify, MongoDB etc.
                 </p>
-                <p className="text-lg mt-5"> I keep enhancing my technical knowledge by learning new technologies as well as improve
-                    existing skillset.
+                <p className="text-lg mt-5">
+                    I strive to enhance my technical knowledge by learning new
+                    technologies as well as improve existing skillset.
                 </p>
-                <p className="text-lg mt-5"> Besides that I love travelling ✈, watching movies 📺, listening music &#127925;, playing video games 🎮, hanging out 
-                    with friends 👨‍👦‍👦 and all that good stuff...
+                <p className="text-lg mt-5">
+                    Besides that I love travelling &nbsp;
+                    <span role="img" aria-label="travel">
+                        ✈
+                    </span>
+                    , watching movies &nbsp;
+                    <span role="img" aria-label="tv">
+                        📺
+                    </span>
+                    , listening music &#127925;, playing video games &nbsp;
+                    <span role="img" aria-label="games">
+                        🎮
+                    </span>
+                    , hanging out with friends &nbsp;
+                    <span role="img" aria-label="friends">
+                        👨‍👦‍👦
+                    </span>
+                    &nbsp; and all that good stuff...
                 </p>
             </div>
         </div>
