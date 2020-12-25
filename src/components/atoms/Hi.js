@@ -2,7 +2,7 @@ import React from "react";
 
 const Hi = () => {
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 md:pt-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
             <div className="col-span-1 mx-auto my-auto">
                 <p className="text-2xl font-bold md:text-5xl my-5">
                     Hi There&nbsp;
@@ -31,16 +31,15 @@ const Hi = () => {
                             Story Digital
                         </a>
                     </span>
-                    . I also Freelance. My core skillset includes ReactJS and
-                    React-Native along with relevant experience in NodeJS,
-                    Express, Fastify, MongoDB etc.
+                    . I also Freelance.
                 </p>
                 <p className="text-lg mt-5">
-                    I strive to enhance my technical knowledge by learning new
-                    technologies as well as improve existing skillset.
+                    My core skillset includes ReactJS and React-Native along
+                    with relevant experience in NodeJS, Express, Fastify,
+                    MongoDB etc.
                 </p>
                 <p className="text-lg mt-5">
-                    Besides that I love travelling &nbsp;
+                    Besides that, I love travelling &nbsp;
                     <span role="img" aria-label="travel">
                         ✈
                     </span>
