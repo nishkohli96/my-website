@@ -2,8 +2,8 @@ import React from "react";
 
 const Hi = () => {
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 pt-5 pb-10 md:pt-20">
-            <div className="col-span-1 mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 md:pt-20">
+            <div className="col-span-1 mx-auto my-auto">
                 <p className="text-2xl font-bold md:text-5xl my-5">
                     Hi There&nbsp;
                     <span role="img" aria-label="hi">
@@ -14,7 +14,7 @@ const Hi = () => {
                     Nice to meet you.
                 </p>
             </div>
-            <div className="mx-auto col-span-1 md:pt-5 max-w-xs sm:max-w-sm md:max-w-md">
+            <div className="mx-auto col-span-1 md:pt-5 respdiv">
                 <p className="text-lg">
                     Myself Nishant. I am a Self-taught&nbsp;
                     <span role="img" aria-label="graduate">
@@ -22,8 +22,12 @@ const Hi = () => {
                     </span>
                     &nbsp;FullStack Developer with two years of experience
                     currently working with &nbsp;
-                    <span className="underline text-blue-200">
-                        <a href="https://www.storydigital.in/" target="_blank">
+                    <span className="hreflink">
+                        <a
+                            href="https://www.storydigital.in/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
                             Story Digital
                         </a>
                     </span>

@@ -6,7 +6,6 @@ import Header from "_Molecules/Header";
 import Footer from "_Atoms/Footer";
 
 const Layout = ({ title, children }) => {
-
     return (
         <div className="fullscreen">
             <Helmet>
@@ -14,10 +13,10 @@ const Layout = ({ title, children }) => {
                 <title>{title}</title>
             </Helmet>
             <Header />
-            <div className="overflow-y-auto">
+            <div className="overflow-y-auto pb-0">
                 <main>{children}</main>
+                <Footer />
             </div>
-            <Footer />
         </div>
     );
 };
