@@ -5,7 +5,7 @@
 @layer components {
     /* w-max for width: fit-content */
     .fullscreen {
-        @apply w-screen h-screen;
+        @apply w-screen h-screen  bg-bodycol;
     }
     .content {
         @apply p-5 bg-bodycol text-cocowhite;

@@ -1,16 +1,15 @@
 import React from "react";
 
-import Header from "_Molecules/Header";
+import Layout from "_DefaultComps/layout";
 import Hi from "_Atoms/Hi";
-import Footer from "_Atoms/Footer";
 
 const IndexPage = () => {
     return (
-        <div className="fullscreen">
-            <Header />
-            <Hi />
-            <Footer />
-        </div>
+        <Layout title="Home">
+            <div className="content">
+                <Hi />
+            </div>
+        </Layout>
     );
 };
 
