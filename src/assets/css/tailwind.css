@@ -25,9 +25,8 @@
     .sub-heading {
         @apply text-xl md:text-3xl;
     }
-
-    .code {
-        @apply bg-gray-300 text-black px-3 py-1;
+    .icon {
+        @apply mx-3 h-10 w-10;
     }
 }
 

@@ -22,7 +22,6 @@ module.exports = {
                     _Constants: "./constants",
                     _Css: "./assets/css",
                     _DefaultComps: "./components/default-comps",
-                    _Icons: "./assets/icons",
                     _Images: "./assets/images",
                     _Molecules: "./components/molecules",
                     _Pages: "./pages",
