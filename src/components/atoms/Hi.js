@@ -2,7 +2,7 @@ import React from "react";
 
 const Hi = () => {
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-2">
             <div className="col-span-1 mx-auto my-auto">
                 <p className="text-2xl font-bold md:text-5xl my-5">
                     Hi There&nbsp;
