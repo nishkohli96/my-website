@@ -20,18 +20,7 @@ const Hi = () => {
                     <span role="img" aria-label="graduate">
                         👨‍🎓
                     </span>
-                    &nbsp;FullStack Developer with two years of experience
-                    currently working with &nbsp;
-                    <span className="hreflink">
-                        <a
-                            href="https://www.storydigital.in/"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            Story Digital
-                        </a>
-                    </span>
-                    . I also Freelance.
+                    &nbsp;FullStack Developer with two years of experience.
                 </p>
                 <p className="text-lg mt-5">
                     My core skillset includes ReactJS and React-Native along
