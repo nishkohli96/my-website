@@ -10,7 +10,7 @@ const Hi = () => {
                         👋
                     </span>
                 </p>
-                <p className="text-xl font-semibold my-5 md:text-3xl md:mt-10">
+                <p className="sub-heading font-semibold my-5  md:mt-10">
                     Nice to meet you.
                 </p>
             </div>

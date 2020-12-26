@@ -8,17 +8,33 @@ const Projects = () => {
         <Layout title="My Projects">
             <div className="content">
                 <div className="text-center">
-                    <p className="text-3xl mb-5 text-red-400">
-                        Glad to share some of my best work with you...
+                    <p className="sub-heading mb-5 text-red-400">
+                        Glad to share some of my works with you...
                     </p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                     {ProjectsList.map(proj => (
-                        <div className="col-span-1 m-auto">
+                        <div className="col-span-1 m-auto" key={proj.name}>
                             <ProjectItem project={proj} />
                         </div>
                     ))}
+                </div>
+
+                <div className="text-center">
+                    <p className="text-lg md:text-xl text-yellow-400 mt-5">
+                        There&apos;s always something interesting brewing in my
+                        &nbsp;
+                        <span className="hreflink">
+                            <a
+                                href="https://github.com/nishkohli96"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                Github
+                            </a>
+                        </span>
+                    </p>
                 </div>
             </div>
         </Layout>

@@ -8,7 +8,7 @@
         @apply w-screen h-screen  bg-bodycol;
     }
     .content {
-        @apply px-5 py-10 md:pt-24 bg-bodycol text-cocowhite;
+        @apply px-5 py-14 md:pt-24 bg-bodycol text-cocowhite;
     }
     .navbar {
         @apply p-2 md:p-5 bg-headercol text-cocowhite w-screen;
@@ -22,12 +22,8 @@
     .respdiv {
         @apply max-w-xs sm:max-w-sm md:max-w-md;
     }
-
-    .heading {
-        @apply text-3xl text-navyb mx-auto mb-5 font-bold;
-    }
     .sub-heading {
-        @apply text-xl text-gray-400 m-3;
+        @apply text-xl md:text-3xl;
     }
 
     .code {
