@@ -15,8 +15,8 @@ const Layout = ({ title, children }) => {
             <Header />
             <div className="overflow-y-auto pb-0">
                 <main>{children}</main>
-                <Footer />
             </div>
+            <Footer />
         </div>
     );
 };
