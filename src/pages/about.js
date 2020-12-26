@@ -3,7 +3,7 @@ import Layout from "_DefaultComps/layout";
 import * as DP from "_Images/nish.jpg";
 
 const About = () => (
-    <Layout title="About Me">
+    <Layout title="About">
         <div className="content grid grid-cols-1 lg:grid-cols-2 gap-2">
             <div className="mx-auto">
                 <img
@@ -41,7 +41,7 @@ const About = () => (
                     .
                 </p>
                 <p className="mb-3 text-lg leading-8">
-                    Presently, I aspire to continue learning new technologies
+                    At present, I aspire to continue learning new technologies
                     and improve existing skillset while maintaining a decent
                     work-life balance. I also freelance so that I can
                     collaborate with multiple people and learn from the best in

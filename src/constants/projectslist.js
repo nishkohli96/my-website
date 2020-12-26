@@ -23,16 +23,16 @@ export const ProjectsList = [
             "The Repository that holds the code to what you see on your screen right now. ",
         url: "https://github.com/nishkohli96/my-website",
     },
-    {
-        name: "react-app-template",
-        desc:
-            "An ideal pre-configured create-react-app template for your next ReactJS Project.",
-        url: "https://github.com/nishkohli96/react-app-template",
-    },
-    {
-        name: "auth-data-nodeserver",
-        desc:
-            "SSO using PassportJS, querying from mongoDB, and using GraphQL to fetch/edit MongoDB data.",
-        url: "https://github.com/nishkohli96/auth-data-nodeserver",
-    },
+    // {
+    //     name: "react-app-template",
+    //     desc:
+    //         "An ideal pre-configured create-react-app template for your next ReactJS Project.",
+    //     url: "https://github.com/nishkohli96/react-app-template",
+    // },
+    // {
+    //     name: "auth-data-nodeserver",
+    //     desc:
+    //         "SSO using PassportJS, querying from mongoDB, and using GraphQL to fetch/edit MongoDB data.",
+    //     url: "https://github.com/nishkohli96/auth-data-nodeserver",
+    // },
 ];
