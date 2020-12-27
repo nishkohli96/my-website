@@ -19,7 +19,7 @@ const About = () => (
                             ( Punjabi in the house !!! )
                         </span>
                         . I also spent some of my childhood in Amritsar, but
-                        completed most of my education in Ludhiana itself.
+                        completed most of my education in Ludhiana itself. Both of my parents are doctors.
                     </p>
                 </div>
             </div>
@@ -43,9 +43,8 @@ const About = () => (
                 <p className="mb-3 text-lg leading-8">
                     At present, I aspire to continue learning new technologies
                     and improve existing skillset while maintaining a decent
-                    work-life balance. I also freelance so that I can
-                    collaborate with multiple people and learn from the best in
-                    the industry.
+                    work-life balance. I love interacting with people and learn 
+                    from their knowledge and experiences.
                 </p>
             </div>
         </div>
