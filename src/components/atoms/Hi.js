@@ -14,20 +14,20 @@ const Hi = () => {
                     Nice to meet you.
                 </p>
             </div>
-            <div className="mx-auto col-span-1 md:pt-5 respdiv">
-                <p className="text-lg leading-8">
+            <div className="mx-auto col-span-1 md:pt-10 respdiv">
+                <p className="text-xl leading-8">
                     Myself Nishant. I am a Self-taught&nbsp;
                     <span role="img" aria-label="graduate">
                         👨‍🎓
                     </span>
                     &nbsp;FullStack Developer with two years of experience.
                 </p>
-                <p className="text-lg mt-5 leading-8">
+                <p className="text-xl mt-5 leading-8">
                     My core skillset includes ReactJS and React-Native along
                     with relevant experience in NodeJS, Express, Fastify,
                     MongoDB etc.
                 </p>
-                <p className="text-lg mt-5 leading-8">
+                <p className="text-xl mt-5 leading-8">
                     Besides that, I love travelling &nbsp;
                     <span role="img" aria-label="travel">
                         ✈

@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 
-import Header from "_Molecules/Header";
+import Header from "_Atoms/Header";
 import Footer from "_Atoms/Footer";
 
 const Layout = ({ title, children }) => {
