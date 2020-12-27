@@ -1,9 +1,5 @@
-# gatsby-template
+# my-website
 
-**A simple Gatsby app Template with the following features**
+Created using GatsbyJS and Tailwind CSS.
 
--   Husky, Lint-Staged & Prettier
--   Alias Imports
--   Added Material UI & Icons
--   Tailwind Css Support, including defining custom classes and extending theme
--   Retaining default layout and seo files in the `components/default-comps` folder.
+View it on [https://nishkohli.netlify.app/](https://nishkohli.netlify.app/)
