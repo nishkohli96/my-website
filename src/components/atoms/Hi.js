@@ -25,7 +25,7 @@ const Hi = () => {
                 <p className="text-lg lg:text-xl lg:leading-relaxed mt-5 leading-8">
                     My core skillset includes ReactJS and React-Native along
                     with relevant experience in NodeJS, Express, Fastify,
-                    MongoDB etc.
+                    MongoDB etc. I love playing around with new libraries and frameworks. 
                 </p>
                 <p className="text-lg lg:text-xl lg:leading-relaxed mt-5 leading-8">
                     Besides that, I love travelling &nbsp;

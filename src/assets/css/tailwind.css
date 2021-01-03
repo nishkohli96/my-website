@@ -14,7 +14,7 @@
         @apply p-2 md:p-5 bg-headercol text-cocowhite w-screen;
     }
     .navlink {
-        @apply mx-2 text-sm sm:text-xl md:text-2xl md:mx-5  inline font-bold;
+        @apply mx-2 text-sm sm:text-xl sm:pt-2 md:text-2xl md:mx-5  inline font-bold;
     }
     .hreflink {
         @apply underline text-blue-300;
