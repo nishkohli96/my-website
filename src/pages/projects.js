@@ -38,7 +38,7 @@ const Projects = () => {
                     </p>
                 </div>
             </div>
-            <div className="lg:fixed bottom-0">
+            <div className="md:fixed bottom-0">
                 <Footer />
             </div>
         </Layout>
