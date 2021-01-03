@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "_DefaultComps/layout";
 import ProjectItem from "_Atoms/ProjectItem";
 import { ProjectsList } from "_Constants/projectslist";
+import Footer from "_Atoms/Footer";
 
 const Projects = () => {
     return (
@@ -36,6 +37,9 @@ const Projects = () => {
                         </span>
                     </p>
                 </div>
+            </div>
+            <div className="lg:fixed bottom-0">
+                <Footer />
             </div>
         </Layout>
     );

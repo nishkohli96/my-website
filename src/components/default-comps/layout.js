@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 
 import Header from "_Atoms/Header";
-import Footer from "_Atoms/Footer";
 
 const Layout = ({ title, children }) => {
     return (
@@ -16,7 +15,6 @@ const Layout = ({ title, children }) => {
             <div className="overflow-y-auto pb-0">
                 <main>{children}</main>
             </div>
-            <Footer />
         </div>
     );
 };

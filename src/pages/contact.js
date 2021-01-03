@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "_DefaultComps/layout";
+import Footer from "_Atoms/Footer";
 
 const Contact = () => (
     <Layout title="Contact">
@@ -57,7 +58,25 @@ const Contact = () => (
                         />
                     </a>
                 </div>
+
+                <div>
+                    <a
+                        href="https://twitter.com/Nishious"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <img
+                            src="https://img.icons8.com/fluent/48/000000/twitter.png"
+                            className="icon"
+                            alt="instagram"
+                        />
+                    </a>
+                </div>
             </div>
+        </div>
+
+        <div className="fixed bottom-0">
+            <Footer />
         </div>
     </Layout>
 );
